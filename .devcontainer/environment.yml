@@ -1,10 +1,11 @@
-name: dev
+name: ai-env
 channels:
- - defaults
+  - defaults
+  - microsoft
 dependencies:
-- python=3.10.0
-- openai
-- python-dotenv
-- pip
-- pip:
-  - azure-ai-inference
+  - python=3.10
+  - openai
+  - python-dotenv
+  - pip
+  - pip:
+      - azure-ai-ml
